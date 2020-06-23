@@ -69,9 +69,9 @@ legendary item and as such its Quality is 80 and it never alters.
 ## Entregable
 - Código fuente en Github (1 por equipo)
 - El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits, PRs, CR, se debe observar la participación de todos de manera equitativa)
-- Debe actualizar el archivo [setup.md](pre-requisito/setup.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
+- Debe actualizar el archivo [setup.md](extra/setup.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
  - Los commits de Git deben ser significativos
- - Cada Pull Request debe ser atómito e implementar una sola funcionalidad
+ - Cada Pull Request debe ser atómico e implementar una sola funcionalidad
   
 ## Evaluación / Revisión
 En sus valoraciones los mentores considaran los siguientes aspectos:
@@ -84,19 +84,23 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Claridad de la solución
 - Abstracción
 - Uso de características propias del lenguaje Ruby
-- Uso de Git, commits bien definidos y atómicos, pull requests por funcionalidad
+- Uso de Git, commits bien definidos y atómicos, Pull Requests por funcionalidad
 - Puntuación obtenida en RubyCritic
 
 ## Flujo de trabajo sugerido
-1. Explorar y entender los requerimientos funcionales
-Correr pruebas y asegurarte que pasen
-Comenzar a refactorizar
-Agregar el/los nuevos features
-Agregar pruebas a esos nuevos features
-Iterar y refactorizar y que todo siga pasando
+1. Dedica un tiempo para explorar y entender los requerimientos funcionales
+ - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+2. Ejecuta las pruebas y asegurate de que el código inicial las pasa
+3. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
+4. Agrega los nuevos features solicitados en los requerimientos funcionales
+5. Agrega pruebas para cada feature implementado
+6. Itera, refactoriza y asegurate de que las pruebas sigan pasando
+7. En todo momento asegurate de tu código cumpla con los requerimientos funcionales solicitados.
+8. Una vez terminada tu implementación envíala #support para recibir retroalimentación
+9. Asegurate de que por lo menos 1 de los mentores apruebe tu solución
 
 ## Resumen 
-- Tienes un máximo de 5 días para implementar el algortitmo de el Juego de Boliche
+- Tienes un máximo de 5 días para terminar esta kata
 - Durante el proceso de desarrollo debes mantener actualizado este repositorio
 - Lo harás en entregas parciales realizando PULL REQUESTS
  - [Los commits deben ser significativos](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4)
@@ -110,7 +114,7 @@ Iterar y refactorizar y que todo siga pasando
 
 ## Setup
 
-En [este elnace](pre-requisito/setup.md) se describen los pasos necesarios para ejecutar/probar este proyecto.
+En [este elnace](extra/setup.md) se describen los pasos necesarios para ejecutar/probar este proyecto, así como los integrantes de este equipo
 
 ## Enlaces
 ### Commits
@@ -133,3 +137,7 @@ En [este elnace](pre-requisito/setup.md) se describen los pasos necesarios para 
 - [SOLID Object-Oriented Design Principles with Ruby Examples](https://rubygarage.org/blog/solid-principles-of-ood)
 - [Back to Basics: SOLID](https://thoughtbot.com/blog/back-to-basics-solid)
 - [SOLID Principles](https://www.netguru.com/codestories/solid-principles-1-single-responsibility-principle) 
+### Code Review
+- [Code Review Best Practices](https://medium.com/palantir/code-review-best-practices-19e02780015f)
+- [Code Review – Best Practices, Guidelines & Process Insights](https://www.ideamotive.co/blog/code-review-best-practices)
+- [Google's Engineering Practices documentation](https://google.github.io/eng-practices/review/reviewer/)
