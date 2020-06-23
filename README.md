@@ -8,9 +8,9 @@
 
 Antes de iniciar debes:
 
-- [Saber trabajar haciendo Pull Requests](pre-requisito/pull-request.md)
-- [Tener instalado y utilizar Rubocop](pre-requisito/rubocop.md)
-- [Tener instalado y utilizar Rubycritic](pre-requisito/rubycritic.md)
+- [Saber trabajar haciendo Pull Requests](https://github.com/bright-coders/commons/tree/master/topics/pull-request)
+- [Tener instalado y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
+- [Tener instalado y utilizar Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
 
 ## Requerimientos funcionales
 
@@ -63,14 +63,15 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ## Tecnologías
 - Lenguaje de programación Ruby
-- Framework para pruebas [Rspec](https://rspec.info/)
+- Framework para pruebas [Rspec](https://rspec.info/) ó [Minitest](https://github.com/seattlerb/minitest)
 - Línea de comando
 
 ## Entregable
-- Código fuente en Github
-  - Debe actualizar el archivo [setup.md](pre-requisito/setup.md) en donde se describa el proceso para hacer funcionar el proyecto
-  - Los commits de Git deben ser atómicos y significativos
-  - Cada Pull request asociado a una funcionalidad
+- Código fuente en Github (1 por equipo)
+- El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits, PRs, CR, se debe observar la participación de todos de manera equitativa)
+- Debe actualizar el archivo [setup.md](pre-requisito/setup.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
+ - Los commits de Git deben ser significativos
+ - Cada Pull Request debe ser atómito e implementar una sola funcionalidad
   
 ## Evaluación / Revisión
 En sus valoraciones los mentores considaran los siguientes aspectos:
@@ -82,9 +83,17 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Convenciones del lenguaje
 - Claridad de la solución
 - Abstracción
-- Uso de características propias del lenguaje ruby
+- Uso de características propias del lenguaje Ruby
 - Uso de Git, commits bien definidos y atómicos, pull requests por funcionalidad
 - Puntuación obtenida en RubyCritic
+
+## Flujo de trabajo sugerido
+1. Explorar y entender los requerimientos funcionales
+Correr pruebas y asegurarte que pasen
+Comenzar a refactorizar
+Agregar el/los nuevos features
+Agregar pruebas a esos nuevos features
+Iterar y refactorizar y que todo siga pasando
 
 ## Resumen 
 - Tienes un máximo de 5 días para implementar el algortitmo de el Juego de Boliche
