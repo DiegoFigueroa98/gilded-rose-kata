@@ -48,7 +48,7 @@ for you).
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
 
-**IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+**IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el [CODIGO INICIAL](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 
 ## Requerimientos no-funcionales
 - Calidad
@@ -90,7 +90,7 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 ## Flujo de trabajo sugerido
 1. Este ejercicio se realiza en formato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
 2. Dedica un tiempo para explorar y entender los requerimientos funcionales
-3. **IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+3. **IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el [CODIGO INICIAL](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 4. Ejecuta las pruebas y asegurate de que el código inicial las pasa
 5. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
 6. Agrega los nuevos features solicitados en los requerimientos funcionales
@@ -112,7 +112,6 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - NO es un examen sino un ejercicio por lo que puedes apoyarte en tus compañeros y mentores para recibir ayuda, así que si tienes dudas, pregunta, pregunta pregunta!
 
 ## Setup
-
 En [este elnace](extra/setup.md) se describen los pasos necesarios para ejecutar/probar este proyecto, así como los integrantes de este equipo
 
 ## Enlaces
