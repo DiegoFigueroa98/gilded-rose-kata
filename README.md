@@ -48,6 +48,8 @@ for you).
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
 
+**IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+
 ## Requerimientos no-funcionales
 - Calidad
   - Utilizar estilo de código definido por la comunidad (apoyarse en Rubocop)
@@ -88,24 +90,22 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 ## Flujo de trabajo sugerido
 1. Este ejercicio se realiza en formato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
 2. Dedica un tiempo para explorar y entender los requerimientos funcionales
-  - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
-3. Ejecuta las pruebas y asegurate de que el código inicial las pasa
-4. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
-5. Agrega los nuevos features solicitados en los requerimientos funcionales
-6. Agrega pruebas para cada feature implementado
-7. Itera, refactoriza y asegurate de que las pruebas sigan pasando
-8. En todo momento asegurate de tu código cumpla con los requerimientos funcionales solicitados.
-9. Una vez terminada tu implementación envíala #support para recibir retroalimentación
-10. Asegurate de que por lo menos 1 de los mentores apruebe tu solución
+3. **IMPORTANTE** En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+4. Ejecuta las pruebas y asegurate de que el código inicial las pasa
+5. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
+6. Agrega los nuevos features solicitados en los requerimientos funcionales
+7. Agrega pruebas para cada feature implementado
+8. Itera, refactoriza y asegurate de que las pruebas sigan pasando
+9. En todo momento asegurate de tu código cumpla con los requerimientos funcionales solicitados.
+10. Una vez terminada tu implementación envíala #support para recibir retroalimentación
+11. Asegurate de que por lo menos 1 de los mentores apruebe tu solución
 
 ## Resumen 
 - Tienes un máximo de 5 días para terminar esta kata
 - Durante el proceso de desarrollo debes mantener actualizado este repositorio
 - Lo harás en entregas parciales realizando PULL REQUESTS
- - [Los commits deben ser significativos](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4)
- - [Cada Pull request asociado a una funcionalidad](https://medium.com/@fagnerbrack/one-pull-request-one-concern-e84a27dfe9f1)
- - Debes compartir en #support tus pull requests para que los mentores te hagan code review
- - Se requiere por lo menos la aprobación de 1 mentor para hacer merge
+- [Los commits deben ser significativos](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4)
+- Se requiere por lo menos la aprobación de por lo menos 1 mentor
 - Incluir pruebas (TDD)
 - Deberás incluir el linter RuboCop en tu proyecto
 - Debes utilizar Rubycritic y obtener por lo menos una puntuación de 95 en la carpeta de tu app y 75 en la de pruebas
@@ -120,23 +120,15 @@ En [este elnace](extra/setup.md) se describen los pasos necesarios para ejecutar
 - [You Need to Write Meaningful Commit Messages](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4) 
 - [Writing meaningful git commit messages](https://medium.com/@menuka/writing-meaningful-git-commit-messages-a62756b65c81)
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
-### Pull Requests
-- [One Pull Request. One Concern](https://medium.com/@fagnerbrack/one-pull-request-one-concern-e84a27dfe9f1)
-- [The (written) unwritten guide to pull requests](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
-- [Best practices for pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
-- [BEST PRACTICES ON DOING PULL REQUESTS](https://holgerfrohloff.de/best-practices-on-doing-pull-requests/)
-- [What every reviewer would like to see in your next Pull Request](https://nebulab.it/blog/what-every-reviewer-would-like-to-see-in-your-next-pull-request/?utm_content=bufferbd023&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 ### The Gilded Rose Refactoring Kata
 - [The Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 ### Tools
 - [Rubocop](https://rubocop.org/)
 - [Rubycritic](https://github.com/whitesmith/rubycritic) 
 - [Rspec](https://rspec.info/)
+- [Minitest](https://github.com/seattlerb/minitest)
 ### Solid Principles
 - [SOLID Object-Oriented Design Principles with Ruby Examples](https://rubygarage.org/blog/solid-principles-of-ood)
 - [Back to Basics: SOLID](https://thoughtbot.com/blog/back-to-basics-solid)
 - [SOLID Principles](https://www.netguru.com/codestories/solid-principles-1-single-responsibility-principle) 
-### Code Review
-- [Code Review Best Practices](https://medium.com/palantir/code-review-best-practices-19e02780015f)
-- [Code Review – Best Practices, Guidelines & Process Insights](https://www.ideamotive.co/blog/code-review-best-practices)
-- [Google's Engineering Practices documentation](https://google.github.io/eng-practices/review/reviewer/)
+
