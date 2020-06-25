@@ -88,6 +88,7 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Puntuación obtenida en RubyCritic
 
 ## Flujo de trabajo sugerido
+1. Este ejercicio se realiza en formnato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
 1. Dedica un tiempo para explorar y entender los requerimientos funcionales
  - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
 2. Ejecuta las pruebas y asegurate de que el código inicial las pasa
