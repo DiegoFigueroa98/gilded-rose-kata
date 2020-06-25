@@ -8,7 +8,6 @@
 
 Antes de iniciar debes:
 
-- [Saber trabajar haciendo Pull Requests](https://github.com/bright-coders/commons/tree/master/topics/pull-request)
 - [Tener instalado y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
 - [Tener instalado y utilizar Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
 
@@ -68,10 +67,9 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ## Entregable
 - Código fuente en Github (1 por equipo)
-- El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits, PRs, CR, se debe observar la participación de todos de manera equitativa)
+- El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits)
 - Debe actualizar el archivo [setup.md](extra/setup.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
- - Los commits de Git deben ser significativos
- - Cada Pull Request debe ser atómico e implementar una sola funcionalidad
+- Los commits de Git deben ser significativos
   
 ## Evaluación / Revisión
 En sus valoraciones los mentores considaran los siguientes aspectos:
@@ -84,11 +82,11 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Claridad de la solución
 - Abstracción
 - Uso de características propias del lenguaje Ruby
-- Uso de Git, commits bien definidos y atómicos, Pull Requests por funcionalidad
+- Uso de Git, commits bien definidos y atómicos
 - Puntuación obtenida en RubyCritic
 
 ## Flujo de trabajo sugerido
-1. Este ejercicio se realiza en formnato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
+1. Este ejercicio se realiza en formato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
 2. Dedica un tiempo para explorar y entender los requerimientos funcionales
   - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
 3. Ejecuta las pruebas y asegurate de que el código inicial las pasa
