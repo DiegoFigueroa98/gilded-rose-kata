@@ -103,7 +103,6 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 ## Resumen 
 - Tienes un máximo de 5 días para terminar esta kata
 - Durante el proceso de desarrollo debes mantener actualizado este repositorio
-- Lo harás en entregas parciales realizando PULL REQUESTS
 - [Los commits deben ser significativos](https://medium.com/better-programming/you-need-meaningful-commit-messages-d869e44e98d4)
 - Se requiere por lo menos la aprobación de por lo menos 1 mentor
 - Incluir pruebas (TDD)
