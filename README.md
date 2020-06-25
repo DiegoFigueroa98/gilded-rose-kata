@@ -89,16 +89,16 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 
 ## Flujo de trabajo sugerido
 1. Este ejercicio se realiza en formnato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
-1. Dedica un tiempo para explorar y entender los requerimientos funcionales
- - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
-2. Ejecuta las pruebas y asegurate de que el código inicial las pasa
-3. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
-4. Agrega los nuevos features solicitados en los requerimientos funcionales
-5. Agrega pruebas para cada feature implementado
-6. Itera, refactoriza y asegurate de que las pruebas sigan pasando
-7. En todo momento asegurate de tu código cumpla con los requerimientos funcionales solicitados.
-8. Una vez terminada tu implementación envíala #support para recibir retroalimentación
-9. Asegurate de que por lo menos 1 de los mentores apruebe tu solución
+2. Dedica un tiempo para explorar y entender los requerimientos funcionales
+  - En [este enlace](https://github.com/emilybache/GildedRose-Refactoring-Kata) encontrarás una descripción detallada del algoritmo así como el código inicial
+3. Ejecuta las pruebas y asegurate de que el código inicial las pasa
+4. Inicia el proceso de refactorización, es decir, incorporar mejoras al código inicial tomando en cuenta lo especificado en los Requerimientos Funcionales
+5. Agrega los nuevos features solicitados en los requerimientos funcionales
+6. Agrega pruebas para cada feature implementado
+7. Itera, refactoriza y asegurate de que las pruebas sigan pasando
+8. En todo momento asegurate de tu código cumpla con los requerimientos funcionales solicitados.
+9. Una vez terminada tu implementación envíala #support para recibir retroalimentación
+10. Asegurate de que por lo menos 1 de los mentores apruebe tu solución
 
 ## Resumen 
 - Tienes un máximo de 5 días para terminar esta kata
@@ -128,8 +128,8 @@ En [este elnace](extra/setup.md) se describen los pasos necesarios para ejecutar
 - [Best practices for pull requests](https://github.community/t/best-practices-for-pull-requests/10195)
 - [BEST PRACTICES ON DOING PULL REQUESTS](https://holgerfrohloff.de/best-practices-on-doing-pull-requests/)
 - [What every reviewer would like to see in your next Pull Request](https://nebulab.it/blog/what-every-reviewer-would-like-to-see-in-your-next-pull-request/?utm_content=bufferbd023&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
-### The Bowling Game
-- [Coding Dojo: Bowling](https://codingdojo.org/kata/Bowling/)
+### The Gilded Rose Refactoring Kata
+- [The Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 ### Tools
 - [Rubocop](https://rubocop.org/)
 - [Rubycritic](https://github.com/whitesmith/rubycritic) 
