@@ -70,7 +70,7 @@ legendary item and as such its Quality is 80 and it never alters.
 ## Entregable
 - Código fuente en Github (1 por equipo)
 - El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits)
-- Debe actualizar el archivo [setup.md](extra/setup.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
+- Debe actualizar [este archivo](setup/README.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
 - Los commits de Git deben ser significativos
   
 ## Evaluación / Revisión
@@ -111,7 +111,7 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - NO es un examen sino un ejercicio por lo que puedes apoyarte en tus compañeros y mentores para recibir ayuda, así que si tienes dudas, pregunta, pregunta pregunta!
 
 ## Setup
-En [este elnace](extra/setup.md) se describen los pasos necesarios para ejecutar/probar este proyecto, así como los integrantes de este equipo
+En [este elnace](setup/README.md) se describen los pasos necesarios para ejecutar/probar este proyecto, así como los integrantes de este equipo
 
 ## Enlaces
 ### Commits
