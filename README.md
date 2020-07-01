@@ -8,8 +8,8 @@
 
 Antes de iniciar debes:
 
-- [Tener instalado y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
-- [Tener instalado y utilizar Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
+- [Instalar y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
+- [Instalar y utilizar Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
 
 ## Requerimientos funcionales
 
