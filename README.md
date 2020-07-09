@@ -6,10 +6,11 @@
 
 ## Pre-requisitos
 
-Antes de iniciar debes:
+Antes de iniciar debes instalar las siguientes herramientas, evaluar tu código e identificar posibles mejoras.
 
 - [Instalar y utilizar Rubocop](https://github.com/bright-coders/commons/tree/master/topics/rubocop)
 - [Instalar y utilizar Rubycritic](https://github.com/bright-coders/commons/tree/master/topics/rubycritic)
+- [Instalar y utilizar SandiMeter](https://github.com/makaroni4/sandi_meter)
 
 ## Requerimientos funcionales
 
@@ -54,9 +55,10 @@ legendary item and as such its Quality is 80 and it never alters.
 - Calidad
   - Utilizar estilo de código definido por la comunidad (apoyarse en Rubocop)
   - Pruebas unitarias
-  - Puntuación en Rubycritic: por lo menos 95 en la carpeta de la App y por lo menos 75 en las pruebas
+  - Puntuación en Rubycritic: por lo menos 95 en la carpeta de la App y por lo menos 65 en la carpeta de pruebas
+  - Utilizar [SandiMeter](https://github.com/makaroni4/sandi_meter) para analizar el código y utilizar el resultado para hacer mejoras
 - Ejecución
-  - Puede ejecutarse desde la linea de comandos y mostrar la salida en consola- 
+  - Puede ejecutarse desde la linea de comandos y mostrar la salida en consola
 - Código fuente
   - Orientado a Objetos 
   - Métodos Pequeños
@@ -69,6 +71,8 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ## Entregable
 - Código fuente en Github (1 por equipo)
+- Incluir en el repositorio el [SmallBadge](https://github.com/jorge27/tutorial-rubycritic-small-badge) con la puntuación obtenida por RubyCritic
+- Incluir en el repositorio el reporte HTML que genera [SandiMeter](https://github.com/makaroni4/sandi_meter)
 - El repositorio debe reflejar el trabajo en equipo (en la conversación del repositorio, commits)
 - Debe actualizar [este archivo](setup/README.md) en donde se describa el proceso para hacer funcionar el proyecto y el nombre de los integrantes del equipo
 - Los commits de Git deben ser significativos
@@ -86,6 +90,7 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Uso de características propias del lenguaje Ruby
 - Uso de Git, commits bien definidos y atómicos
 - Puntuación obtenida en RubyCritic
+- Análisis de código obtenido por [SandiMeter](https://github.com/makaroni4/sandi_meter)
 
 ## Flujo de trabajo sugerido
 1. Este ejercicio se realiza en formato de [Code Kata Grupal](https://github.com/bright-coders/commons/tree/master/topics/code-kata)
@@ -107,7 +112,7 @@ En sus valoraciones los mentores considaran los siguientes aspectos:
 - Se requiere por lo menos la aprobación de por lo menos 1 mentor
 - Incluir pruebas (TDD)
 - Deberás incluir el linter RuboCop en tu proyecto
-- Debes utilizar Rubycritic y obtener por lo menos una puntuación de 95 en la carpeta de tu app y 75 en la de pruebas
+- Debes utilizar Rubycritic y obtener por lo menos una puntuación de 95 en la carpeta de tu app y 65 en la de pruebas
 - NO es un examen sino un ejercicio por lo que puedes apoyarte en tus compañeros y mentores para recibir ayuda, así que si tienes dudas, pregunta, pregunta pregunta!
 
 ## Setup
@@ -125,6 +130,9 @@ En [este elnace](setup/README.md) se describen los pasos necesarios para ejecuta
 - [Rubycritic](https://github.com/whitesmith/rubycritic) 
 - [Rspec](https://rspec.info/)
 - [Minitest](https://github.com/seattlerb/minitest)
+- [SandiMeter](https://github.com/makaroni4/sandi_meter)
+- [RubyCritic Small Badge](https://github.com/MarcGrimme/simplecov-small-badge) 
+- [Tutorial SmallBadge](https://github.com/jorge27/tutorial-rubycritic-small-badge)
 ### Solid Principles
 - [SOLID Object-Oriented Design Principles with Ruby Examples](https://rubygarage.org/blog/solid-principles-of-ood)
 - [Back to Basics: SOLID](https://thoughtbot.com/blog/back-to-basics-solid)
