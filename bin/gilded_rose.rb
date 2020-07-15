@@ -1,3 +1,5 @@
+require File.join(File.dirname(__FILE__), 'behaviour_identifier')
+
 class GildedRose
 
   def initialize(items)
