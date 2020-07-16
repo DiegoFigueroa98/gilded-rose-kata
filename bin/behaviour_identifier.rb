@@ -14,6 +14,6 @@ class BehaviourIdentifier
     return BackstagePassBehaviour.new if item.name == 'Backstage to a TAFKAL80ETC concert'
     return ConjuredBehaviour.new if item.name == 'Conjured Mana Cake'
 
-    return ItemBehaviour.new
+    ItemBehaviour.new
   end
 end

@@ -1,7 +1,9 @@
 #!/usr/bin/ruby -w
 
-require File.join(File.dirname(__FILE__), '../bin/gilded_rose')
-require File.join(File.dirname(__FILE__), '../bin/item')
+require_relative '../bin/gilded_rose'
+require_relative '../bin/item'
+#require File.join(File.dirname(__FILE__), '../bin/gilded_rose.rb')
+#require File.join(File.dirname(__FILE__), '../bin/item')
 
 puts "OMGHAI!"
 items = [
