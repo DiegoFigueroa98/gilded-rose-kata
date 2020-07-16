@@ -1,17 +1,19 @@
+# frozen_string_literal: true
+
 require File.join(File.dirname(__FILE__), 'behaviour_identifier')
 
+# This class will save the items and evaluate them
 class GildedRose
-
   def initialize(items)
     @items = items
   end
 
-  def update_quality()
+  def update_quality
     @items.each do |item|
-      itemBehaviour = BehaviourIdentifier.new.obtain_behaviour(item)
-      itemBehaviour.update_quality_pre_date_change(item)
-      itemBehaviour.decrement_sell_date(item)
-      itemBehaviour.process_expired_item(item)
+      item_behaviour = BehaviourIdentifier.new.obtain_behaviour(item)
+      item_behaviour.update_quality_pre_date_change(item)
+      item_behaviour.decrement_sell_date(item)
+      item_behaviour.process_expired_item(item)
     end
   end
 end
