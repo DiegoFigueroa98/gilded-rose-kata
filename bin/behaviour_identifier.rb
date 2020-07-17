@@ -13,7 +13,6 @@ class BehaviourIdentifier
     return SulfurasBehaviour.new if item.name == 'Sulfuras, Hand of Ragnaros'
     return BackstagePassBehaviour.new if item.name == 'Backstage to a TAFKAL80ETC concert'
     return ConjuredBehaviour.new if item.name == 'Conjured Mana Cake'
-
     ItemBehaviour.new
   end
 end

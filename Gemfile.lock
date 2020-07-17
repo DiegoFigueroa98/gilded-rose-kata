@@ -14,6 +14,7 @@ GEM
       descendants_tracker (~> 0.0.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.4.4)
     equalizer (0.0.11)
     erubis (2.7.0)
     flay (2.12.1)
@@ -38,10 +39,26 @@ GEM
     path_expander (1.1.0)
     public_suffix (4.0.5)
     rainbow (3.0.0)
+    rake (13.0.1)
     reek (4.8.2)
       codeclimate-engine-rb (~> 0.4.0)
       parser (>= 2.5.0.0, < 2.6)
       rainbow (>= 2.0, < 4.0)
+    repo-small-badge (0.2.7)
+      victor (~> 0.2.8)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.3)
     rubocop (0.68.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -62,6 +79,8 @@ GEM
       ruby_parser (~> 3.8)
       tty-which (~> 0.3.0)
       virtus (~> 1.0)
+    rubycritic-small-badge (0.2.1)
+      repo-small-badge (~> 0.2.7)
     sandi_meter (1.2.0)
       json
       launchy
@@ -70,6 +89,7 @@ GEM
     thread_safe (0.3.6)
     tty-which (0.3.0)
     unicode-display_width (1.5.0)
+    victor (0.2.8)
     virtus (1.0.5)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
@@ -81,8 +101,11 @@ PLATFORMS
 
 DEPENDENCIES
   minitest
+  rake
+  rspec
   rubocop
   rubycritic
+  rubycritic-small-badge
   sandi_meter
 
 BUNDLED WITH
